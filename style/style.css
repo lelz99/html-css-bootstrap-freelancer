@@ -4,6 +4,11 @@
     border: 1px dashed red;
 }
 
+.card-small{
+    height: 30px;
+    border: 1px dashed red;
+}
+
 /* Altezze e colore sfondi */
 
 header{
@@ -15,7 +20,6 @@ header{
     background-color: #1abc9c;
     height: 300px;
 }
-
 
 .about{
     background-color: #1abc9c;
