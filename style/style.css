@@ -18,6 +18,13 @@
     background-color: #1abc9c;
 }
 
+#jumbo-img{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: block;
+}
+
 
 
 
