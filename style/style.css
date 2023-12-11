@@ -51,6 +51,16 @@ header{
     background-color: #1abc9c;
 }
 
+/* Contact me */
+
+.bg-lightgreen{
+    background-color: #1abc9c;
+}
+
+.contact-me .form-control::placeholder{
+    color: black;
+}
+
 /* Footer */
 
 footer{

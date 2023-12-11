@@ -49,7 +49,7 @@
 
         <!-- Portfolio -->
         <section class="portfolio container text-center py-2">
-            <h2 class="pt-4">PORTFOLIO</h2>
+            <h2 class="pt-4 fw-bold">PORTFOLIO</h2>
             <div class="d-flex justify-content-center py-4">
                 <div class="line"></div>
                 <i class="fa-solid fa-star fa-xl mx-1 mx-md-3"></i>
@@ -105,12 +105,31 @@
         <!-- Form -->
         <section class="contact-me container-fluid pb-4">
             <div class="text-center">
-                <h2 class="pt-4">Title</h2>
-                <p>icon</p>
+                <h2 class="pt-4 fw-bold">CONTACT ME</h2>
+                <div class="d-flex justify-content-center py-4">
+                    <div class="line"></div>
+                    <i class="fa-solid fa-star fa-xl mx-1 mx-md-3"></i>
+                    <div class="line"></div>
+                </div>
             </div>
             <div class="row row-cols-1 justify-content-center">
                 <div class="col-10">
-                    <div class="card">lorem</div>
+                    <form action="">
+                        <div class="mb-3">
+                           <input type="text" class="form-control border-0 border-bottom rounded-0 px-0 py-2 " id="name" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control border-0 border-bottom rounded-0 px-0 py-2" id="mail" placeholder="Email Address">
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control border-0 border-bottom rounded-0 px-0 py-2" id="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="mb-3">
+                           <textarea class="form-control border-0 border-bottom rounded-0 px-0 " id="message" rows="3" placeholder="Message"></textarea>
+                        </div>
+
+                        <button class="btn btn-success bg-lightgreen">Send</button>
+                    </form>
                 </div>
             </div>
         </section>
